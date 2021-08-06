@@ -47,7 +47,8 @@ table {
 
 /*Custom CSS*/
 body{
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 40px 20px;
 }
 
 #page1{
@@ -62,9 +63,17 @@ body{
   background-color: #b1b0b1;
 }
 
+.main-header{
+	text-align: center;
+}
+
+header,article,img{
+	margin-bottom: 50px;
+}
+
 img{
   width:  400px;
-  height: 300px;
+	height: 300px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -80,6 +89,7 @@ h2{
 }
 
 p,a{
-  font-size: 18px;
+	font-size: 18px;
+	line-height: 25px;
 }
 
